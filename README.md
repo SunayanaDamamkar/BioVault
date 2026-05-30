@@ -14,7 +14,7 @@ Biometric data is increasingly targeted by hackers using high-resolution photos,
 
 - 🛡️ BioVault: Zero-Trust Multi-Factor Biometric Liveness Gateway
 BioVault is an advanced, client-side biometric authentication interface engineered to mitigate presentation attacks (spoofing) against sensitive access control systems. Utilizing computer vision landmark tracking, BioVault enforces an interactive Multi-Factor Liveness Verification protocol, requiring the operator to satisfy randomized behavioral challenges (blinking, smiling, head adjustments) before releasing high-value data payloads.
-
+---
 ## 🎯 Target Use Cases & Problem Statement
 
 ### The Threat Matrix
@@ -24,13 +24,13 @@ Standard facial recognition nodes match static spatial features but cannot disti
 * **Financial Institutions:** FinTech onboarding validation layers (KYC), high-limit wire authorizations, and administrative accounting terminals.
 * **Government Agencies:** Defense operations portals, intelligence network gateways, and remote field deployments accessing localized zero-trust databases.
 
-
+---
 ## ⚙️ Core Technical Features
 
 * **Browser-Isolated Computation:** Leverages low-overhead edge-computing frameworks to run machine learning inferences inside the user's browser, bypassing centralized server vulnerabilities and latency overheads.
 * **MFA Liveness State Machine:** Randomly selects, filters, and scales challenge states dynamically based on raw facial matrix tracking variables.
 * **Defensive Error Isolation:** Implements real-time structural boundary overrides that drop the system into a high-visibility crimson security alert state when the biometric target is obscured or missing.
-
+---
 # 🌍 UN SDG Global Impact Alignment
 ### 🕊️ SDG 16: Peace, Justice, and Strong Institutions
 Target 16.6: Develop effective, accountable, and transparent institutions at all levels.
@@ -41,6 +41,8 @@ BioVault Alignment: As local governments, judiciaries, and civil registries rapi
 Target 9.1: Develop quality, reliable, sustainable, and resilient infrastructure to support economic development and human well-being.
 
 BioVault Alignment: Digital infrastructure is the backbone of the modern global economy. Financial technologies, cross-border remittance networks, and remote banking platforms are highly vulnerable to presentation attacks that result in massive capital flight. BioVault introduces highly resilient biometric verification software that runs on minimal technical hardware (pure client-side computing), ensuring that digital financial infrastructures stay secured against highly sophisticated cyber-warfare techniques.
+
+---
 ## 🛠️ SDLC Engineering & Architecture Matrix
 
 ### Testing, Resilience & Edge Cases
@@ -50,7 +52,7 @@ BioVault Alignment: Digital infrastructure is the backbone of the modern global 
 ### Refactoring History
 * **Local Module Migration:** Discarded standard unauthenticated cloud CDNs in favor of localized dependency packages to ensure stable offline operations during pitch environments.
 * **Resource Optimization:** Refactored runtime math from high-overhead blendshape modules to pure Euclidean spatial tracking, heavily decreasing local GPU overhead and battery drain.
-
+---
 ## 🚀 Quickstart Installation Guide
 
 Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
@@ -75,6 +77,7 @@ Run the local Vite optimization development server:
 ```cmd
 npm run dev -- --force
 ```
+---
  # 🛠️ The BioVault Core Stack
 ### 1. Frontend Framework: React (with Vite)
 What it does: React manages the complex user interface states, handling the seamless transition from the live camera scanning screen to the hidden, encrypted secure dashboard.
